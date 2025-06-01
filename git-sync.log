@@ -6,3 +6,6 @@ Schwerwiegend: could not read Username for 'https://github.com': Kein passendes 
  2 files changed, 19 insertions(+)
  create mode 100644 config/hypr/hyprlock.conf
 Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
+[main bd5f057] Auto update 2025-05-31 18:00:00
+ 3 files changed, 38 insertions(+), 12 deletions(-)
+Schwerwiegend: konnte nicht auf 'https://github.com/RubyUwU56/dotfiles.git/' zugreifen: Could not resolve host: github.com
