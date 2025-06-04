@@ -15,3 +15,24 @@ Schwerwiegend: could not read Username for 'https://github.com': Kein passendes 
 [main 2138664] Auto update 2025-06-02 18:00:00
  2 files changed, 9 insertions(+), 1 deletion(-)
 Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
+[main 6176627] Auto update 2025-06-03 18:00:00
+ 19 files changed, 3 insertions(+), 1554 deletions(-)
+ delete mode 100644 dotfiles/config/hypr/hyprland.conf
+ delete mode 100644 dotfiles/config/hypr/hyprpaper.conf
+ delete mode 100755 dotfiles/config/hypr/scripts/alt_tab_switcher.sh
+ delete mode 100644 dotfiles/config/kitty/kitty.conf
+ delete mode 100644 dotfiles/config/neofetch/config.conf
+ delete mode 100644 dotfiles/config/qt5ct/qt5ct.conf
+ delete mode 100644 dotfiles/config/waybar/config
+ delete mode 100755 dotfiles/config/waybar/scripts/focuswindow.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/kill.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/network_popup.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/open-network-manager.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/player.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/player_menu.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/powermenu.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/powermenu.sh.save
+ delete mode 100755 dotfiles/config/waybar/scripts/toggleminimize.sh
+ delete mode 100755 dotfiles/config/waybar/scripts/wifi_menu.sh
+ delete mode 100644 dotfiles/config/waybar/style.css
+Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
