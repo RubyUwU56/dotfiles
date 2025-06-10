@@ -36,3 +36,6 @@ Schwerwiegend: could not read Username for 'https://github.com': Kein passendes 
  delete mode 100755 dotfiles/config/waybar/scripts/wifi_menu.sh
  delete mode 100644 dotfiles/config/waybar/style.css
 Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
+[main deaed90] Auto update 2025-06-04 18:00:01
+ 1 file changed, 21 insertions(+)
+Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
