@@ -48,3 +48,11 @@ Schwerwiegend: could not read Username for 'https://github.com': Kein passendes 
 [main 3157a03] Auto update 2025-06-15 18:00:00
  1 file changed, 3 insertions(+)
 Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
+[main 1c10d71] Auto update 2025-06-16 18:00:00
+ 8 files changed, 171 insertions(+), 8 deletions(-)
+ create mode 100755 config/hypr/wallpaper-menu.sh
+ create mode 100755 config/hypr/wallpaper-picker.sh
+ create mode 100755 config/hypr/wallpaper-preview.sh
+ create mode 100755 config/hypr/wallpaper-switcher-fuzzel.sh
+ create mode 100755 config/hypr/wallpaper-switcher.sh
+Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
