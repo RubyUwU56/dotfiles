@@ -1,0 +1,77 @@
+/* Grundfarben, direkt aus deinem vorherigen Setup */
+
+#waybar {
+  background-color: #251e19; /* dunkelbraun */
+  color: #f2e7c7;            /* helles beige */
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+  padding: 5px 10px;
+}
+
+#workspaces button {
+  padding: 0 10px;
+  margin: 0 4px;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #f2e7c7; /* helles beige */
+  transition: background 0.2s ease, color 0.2s ease;
+ /* cursor: pointer; */
+}
+
+#workspaces button.active {
+  background-color: #D7AC6B; /* helles gold */
+  color: #251e19;            /* dunkelbraun */
+}
+
+#workspaces button:hover {
+  background-color: #AA6E8D; /* mauve */
+  color: #251e19;            /* dunkelbraun */
+}
+
+/* Segmente mit abgerundeten Kanten */
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#pulseaudio,
+#network,
+#tray,
+#custom-launcher {
+  padding: 4px 10px;
+  margin: 0 4px;
+  background-color: #251e19; /* dunkelbraun */
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+/* Statusfarben */
+
+#battery.warning {
+  background-color: #E79D66; /* orange */
+  color: #251e19;            /* dunkelbraun */
+}
+
+#battery.critical {
+  background-color: #E56750; /* rot */
+  color: #251e19;            /* dunkelbraun */
+}
+
+#pulseaudio.muted {
+  background-color: #E79D66; /* orange */
+  color: #251e19;            /* dunkelbraun */
+}
+
+#network.disconnected {
+  background-color: #E56750; /* rot */
+  color: #251e19;            /* dunkelbraun */
+}
+
+/* Tooltip */
+
+#tooltip {
+  background: #251e19;       /* dunkelbraun */
+  color: #f2e7c7;            /* helles beige */
+  border: 1px solid #AA6E8D; /* mauve */
+  border-radius: 5px;
+}

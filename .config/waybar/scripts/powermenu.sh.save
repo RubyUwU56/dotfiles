@@ -1,0 +1,35 @@
+#!/bin/bash
+
+chosen=$(printf "🔁 Power Off\n⏻ Reboot\n🔒 Lock\n📴 Logout" | wofi --dmenu --width 200 --height 200 --style ~/.config/wofi/style.css)
+
+case "$chosen" in
+  "🔁 Neustart") systemctl reboot ;;
+  "⏻ Herunterfahren") systemctl poweroff ;;
+  "🔒 Sperren") loginctl lock-session ;;
+  "📴 Logout") hyprctl dispatch exit ;;
+esac
+
+choice=$(echo -e " ^o  Power Off\n ^`^~ Reboot\n ^t^b Logout\n ^`  Lock\n ^`^g Switch User" | wofi --dmenu --width=250 --height=200 --prompt="System Menu")
+
+case "$choice" in
+  " ^o  Power Off")
+    systemctl poweroff
+    ;;
+  " ^`^~ Reboot")
+    systemctl reboot
+    ;;
+  " ^t^b Logout")
+    hyprctl dispatch exit
+    ;;
+  " ^`  Lock")
+    loginctl lock-session
+    ;;
+  " ^`^g Switch User")
+    dm-tool switch-to-greeter || gdmflexiserver || echo "Function not available"
+    ;;
+  *)
+    ;;
+esac
+
+chmod +x /home/ruby/.config/waybar/scripts/powermenu.sh
+

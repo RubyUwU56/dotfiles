@@ -68,3 +68,13 @@ Schwerwiegend: could not read Username for 'https://github.com': Kein passendes 
 [main 1d31939] Auto update 2025-06-20 18:00:00
  1 file changed, 3 insertions(+)
 Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden
+[main 0243689] Auto update 2025-06-22 18:00:00
+ 9 files changed, 165 insertions(+)
+ create mode 100755 config/hypr/scripts/generate-waybar-style.sh
+ create mode 100755 config/hypr/scripts/setwp.sh
+ create mode 100755 config/hypr/scripts/startup-wall.sh
+ create mode 100755 config/hypr/setwallpaper.sh
+ create mode 100755 config/hypr/watch-swww.sh
+ create mode 100644 config/hypr/watch-wallpaper.sh
+ create mode 100644 config/hypr/wofi-wallpaper.sh
+Schwerwiegend: could not read Username for 'https://github.com': Kein passendes Gerät bzw. keine passende Adresse gefunden

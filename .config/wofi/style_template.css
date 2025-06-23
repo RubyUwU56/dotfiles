@@ -1,0 +1,26 @@
+window {
+    background-color: rgba({background}, 0.95);
+    border-radius: 12px;
+    font-family: JetBrainsMono, sans-serif;
+    font-size: 14px;
+    color: #{foreground};
+}
+
+#entry {
+    padding: 6px;
+    margin: 2px 10px;
+    border-radius: 8px;
+}
+
+#entry:selected {
+    background-color: #{color4};
+    color: #{background};
+}
+
+#input {
+    margin: 10px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: #{color1};
+    color: #{foreground};
+}
